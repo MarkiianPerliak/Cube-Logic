@@ -57,12 +57,14 @@ Tetiana Tarasovych19:53
   transition: all 0.8s ease 0s;
 }
 
-.content__translate:hover {
-    background-color: #a69393;
-    transform: translate(50px, 100px);
-}
 
-.content__scale:hover {
-transform: scale(2, 2);
+
+.content__scale {
+transform:  scale(-2, -2);
 background-color: #a69393;
 }
+
+.content__scale {
+  background-color: #a69393;
+  margin-left: 500px;
+  }
